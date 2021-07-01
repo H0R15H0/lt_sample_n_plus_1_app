@@ -1,8 +1,16 @@
 # README
 
+# Versions
+```
+ruby '2.7.1'
+rails '6.0.3'
+```
+
 # Requirement
+```
 Docker
 docker-compose
+```
 
 # Usage
 ``` bash
