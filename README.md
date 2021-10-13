@@ -13,13 +13,14 @@ docker-compose
 ```
 
 # Usage
+## Build
 ``` bash
-$ git clone git@github.com:H0R15H0/rails-api.git api
-$ cd api
-$ docker-compose up --build
+$ docker-compose build
+$ docker-compose exec app rails db:create
+$ docker-compose exec app rails db:migrate
 ```
 
-# Change remote repository
-```
-$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+## Run
+```bash
+$ docker-compose up
 ```
